@@ -41,6 +41,30 @@
         {
             "image_file": "yay.png"
         }
+        {
+            "image_file": "andreas.png"
+        },
+        {
+            "image_file": "frog.png"
+        },
+        {
+            "image_file": "ghosthug.png"
+        },
+        {
+            "image_file": "haha.png"
+        },
+        {
+            "image_file": "maus.png"
+        },
+        {
+            "image_file": "moonhaha.png"
+        },
+        {
+            "image_file": "uff.png"
+        },
+        {
+            "image_file": "ohNO.png"
+        }
     ]
     }]
 }

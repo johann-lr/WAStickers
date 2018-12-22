@@ -15,7 +15,7 @@
 		8A18E2F11FB3B47D0082201D /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A18E2EC1FB3B47C0082201D /* YYSpriteSheetImage.m */; };
 		8A18E2F21FB3B47D0082201D /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A18E2ED1FB3B47C0082201D /* YYImageCoder.m */; };
 		8A18E3351FBA5CA90082201D /* StickerPackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A18E3341FBA5CA90082201D /* StickerPackManager.swift */; };
-		8A18E33D1FBA793F0082201D /* sticker_packs.json in Resources */ = {isa = PBXBuildFile; fileRef = 8A18E33C1FBA793F0082201D /* sticker_packs.json */; };
+		8A18E33D1FBA793F0082201D /* sticker_packs.wasticker in Resources */ = {isa = PBXBuildFile; fileRef = 8A18E33C1FBA793F0082201D /* sticker_packs.wasticker */; };
 		8A18E33F1FBA7DC50082201D /* WebPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A18E33E1FBA7DC50082201D /* WebPManager.swift */; };
 		8A22EE041F9A9F40003A7F21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A22EE031F9A9F40003A7F21 /* AppDelegate.swift */; };
 		8A22EE091F9A9F40003A7F21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A22EE071F9A9F40003A7F21 /* Main.storyboard */; };
@@ -50,6 +50,14 @@
 		EA4D2E1D21CE8EE10072CF7E /* sticker.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2E1121CE8EE10072CF7E /* sticker.png */; };
 		EA4D2E1E21CE8EE10072CF7E /* tray.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2E1221CE8EE10072CF7E /* tray.png */; };
 		EA4D2E1F21CE8EE10072CF7E /* yay.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2E1321CE8EE10072CF7E /* yay.png */; };
+		EA4D2E2821CE95500072CF7E /* andreas.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2E2021CE954F0072CF7E /* andreas.png */; };
+		EA4D2E2921CE95500072CF7E /* ghosthug.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2E2121CE954F0072CF7E /* ghosthug.png */; };
+		EA4D2E2A21CE95500072CF7E /* maus.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2E2221CE95500072CF7E /* maus.png */; };
+		EA4D2E2B21CE95500072CF7E /* moonhaha.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2E2321CE95500072CF7E /* moonhaha.png */; };
+		EA4D2E2C21CE95500072CF7E /* haha.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2E2421CE95500072CF7E /* haha.png */; };
+		EA4D2E2D21CE95500072CF7E /* ohNO.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2E2521CE95500072CF7E /* ohNO.png */; };
+		EA4D2E2E21CE95500072CF7E /* frog.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2E2621CE95500072CF7E /* frog.png */; };
+		EA4D2E2F21CE95500072CF7E /* uff.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2E2721CE95500072CF7E /* uff.png */; };
 		EA854FE321CE749800128465 /* onelove.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA854FE221CE749800128465 /* onelove.ttf */; };
 		EA854FE721CE772300128465 /* Prisma.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA854FE621CE772300128465 /* Prisma.ttf */; };
 		EA9DC97B21CE708D009913C2 /* 500266423617323019.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9DC97A21CE708D009913C2 /* 500266423617323019.png */; };
@@ -89,7 +97,7 @@
 		8A18E2F81FB3B5CC0082201D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		8A18E2F91FB3B5D00082201D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		8A18E3341FBA5CA90082201D /* StickerPackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerPackManager.swift; sourceTree = "<group>"; };
-		8A18E33C1FBA793F0082201D /* sticker_packs.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sticker_packs.json; sourceTree = "<group>"; };
+		8A18E33C1FBA793F0082201D /* sticker_packs.wasticker */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sticker_packs.wasticker; sourceTree = "<group>"; };
 		8A18E33E1FBA7DC50082201D /* WebPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPManager.swift; sourceTree = "<group>"; };
 		8A22EE001F9A9F40003A7F21 /* WAStickersThirdParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WAStickersThirdParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A22EE031F9A9F40003A7F21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -128,6 +136,14 @@
 		EA4D2E1121CE8EE10072CF7E /* sticker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = sticker.png; sourceTree = "<group>"; };
 		EA4D2E1221CE8EE10072CF7E /* tray.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = tray.png; path = ../../../../../Desktop/stigger/tray.png; sourceTree = "<group>"; };
 		EA4D2E1321CE8EE10072CF7E /* yay.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = yay.png; sourceTree = "<group>"; };
+		EA4D2E2021CE954F0072CF7E /* andreas.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = andreas.png; sourceTree = "<group>"; };
+		EA4D2E2121CE954F0072CF7E /* ghosthug.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ghosthug.png; sourceTree = "<group>"; };
+		EA4D2E2221CE95500072CF7E /* maus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = maus.png; sourceTree = "<group>"; };
+		EA4D2E2321CE95500072CF7E /* moonhaha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = moonhaha.png; sourceTree = "<group>"; };
+		EA4D2E2421CE95500072CF7E /* haha.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = haha.png; sourceTree = "<group>"; };
+		EA4D2E2521CE95500072CF7E /* ohNO.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = ohNO.png; sourceTree = "<group>"; };
+		EA4D2E2621CE95500072CF7E /* frog.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = frog.png; sourceTree = "<group>"; };
+		EA4D2E2721CE95500072CF7E /* uff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uff.png; sourceTree = "<group>"; };
 		EA854FE221CE749800128465 /* onelove.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = onelove.ttf; sourceTree = "<group>"; };
 		EA854FE621CE772300128465 /* Prisma.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Prisma.ttf; sourceTree = "<group>"; };
 		EA9DC97A21CE708D009913C2 /* 500266423617323019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 500266423617323019.png; path = ../../../../../Downloads/500266423617323019.png; sourceTree = "<group>"; };
@@ -191,7 +207,7 @@
 				8A18E3341FBA5CA90082201D /* StickerPackManager.swift */,
 				8A18E33E1FBA7DC50082201D /* WebPManager.swift */,
 				8A22EE071F9A9F40003A7F21 /* Main.storyboard */,
-				8A18E33C1FBA793F0082201D /* sticker_packs.json */,
+				8A18E33C1FBA793F0082201D /* sticker_packs.wasticker */,
 				8A26A6A71FEB2E2400256DE8 /* SampleStickers */,
 				8ADA60721FD71C8D006C9BBA /* UI */,
 				8A18E2F31FB3B4840082201D /* WebP */,
@@ -208,6 +224,14 @@
 		8A26A6A71FEB2E2400256DE8 /* SampleStickers */ = {
 			isa = PBXGroup;
 			children = (
+				EA4D2E2021CE954F0072CF7E /* andreas.png */,
+				EA4D2E2621CE95500072CF7E /* frog.png */,
+				EA4D2E2121CE954F0072CF7E /* ghosthug.png */,
+				EA4D2E2421CE95500072CF7E /* haha.png */,
+				EA4D2E2221CE95500072CF7E /* maus.png */,
+				EA4D2E2321CE95500072CF7E /* moonhaha.png */,
+				EA4D2E2521CE95500072CF7E /* ohNO.png */,
+				EA4D2E2721CE95500072CF7E /* uff.png */,
 				EA4D2E0F21CE8EE00072CF7E /* blobthink.png */,
 				EA4D2E0A21CE8EE00072CF7E /* blobthink2.png */,
 				EA4D2E1021CE8EE10072CF7E /* dudumm.png */,
@@ -335,26 +359,34 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA4D2E2E21CE95500072CF7E /* frog.png in Resources */,
 				8A27F12F1FD9E733001B2BBD /* SecondaryTextTableViewCell.xib in Resources */,
 				8A27F11C1FD73DD0001B2BBD /* StickerPackTableViewCell.xib in Resources */,
+				EA4D2E2C21CE95500072CF7E /* haha.png in Resources */,
 				EA9DC97B21CE708D009913C2 /* 500266423617323019.png in Resources */,
 				EA854FE321CE749800128465 /* onelove.ttf in Resources */,
 				8A22EE0E1F9A9F40003A7F21 /* LaunchScreen.storyboard in Resources */,
+				EA4D2E2821CE95500072CF7E /* andreas.png in Resources */,
+				EA4D2E2A21CE95500072CF7E /* maus.png in Resources */,
 				8A22EE0B1F9A9F40003A7F21 /* Assets.xcassets in Resources */,
 				EA4D2E1421CE8EE10072CF7E /* smile.png in Resources */,
+				EA4D2E2921CE95500072CF7E /* ghosthug.png in Resources */,
 				EA4D2E1D21CE8EE10072CF7E /* sticker.png in Resources */,
 				EA4D2E1B21CE8EE10072CF7E /* blobthink.png in Resources */,
 				EA4D2E1821CE8EE10072CF7E /* iconBig.png in Resources */,
 				8A27F1311FD9E987001B2BBD /* LinkTableViewCell.xib in Resources */,
+				EA4D2E2D21CE95500072CF7E /* ohNO.png in Resources */,
 				EA4D2E1F21CE8EE10072CF7E /* yay.png in Resources */,
 				EA4D2E1721CE8EE10072CF7E /* icon.png in Resources */,
 				8A22EE091F9A9F40003A7F21 /* Main.storyboard in Resources */,
 				EA4D2E1621CE8EE10072CF7E /* blobthink2.png in Resources */,
+				EA4D2E2B21CE95500072CF7E /* moonhaha.png in Resources */,
 				EA4D2E1921CE8EE10072CF7E /* ohshit.png in Resources */,
 				EA854FE721CE772300128465 /* Prisma.ttf in Resources */,
 				EA4D2E1521CE8EE10072CF7E /* iconSm.png in Resources */,
 				EA4D2E1E21CE8EE10072CF7E /* tray.png in Resources */,
-				8A18E33D1FBA793F0082201D /* sticker_packs.json in Resources */,
+				8A18E33D1FBA793F0082201D /* sticker_packs.wasticker in Resources */,
+				EA4D2E2F21CE95500072CF7E /* uff.png in Resources */,
 				EA4D2E1C21CE8EE10072CF7E /* dudumm.png in Resources */,
 				EA4D2E1A21CE8EE10072CF7E /* schmüüä.png in Resources */,
 			);
