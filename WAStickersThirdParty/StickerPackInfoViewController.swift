@@ -17,8 +17,7 @@ private enum Website {
 class StickerPackInfoViewController: UITableViewController {
 
     private static let footerString: String = """
-    After adding this sticker pack to WhatsApp, you will be able to send these stickers to anyone \
-    in WhatsApp. To delete the sticker pack, go to the "My Stickers" panel in WhatsApp.
+    Sticker pack application by Johann Laur (joarlaur@icloud.com) - Template for the app: whatsapp.com
     """
     private var footerHeight: CGFloat {
         var insets: UIEdgeInsets = .zero
@@ -153,13 +152,13 @@ class StickerPackInfoViewController: UITableViewController {
 
             switch indexPath.row {
             case index(ofWebsite: .publisher):
-                linkCell.linkTitle = "Publisher Website"
+                linkCell.linkTitle = "Homepage/AppPage"
                 linkCell.linkImage = UIImage(named: "WAWebsiteIcon")!.withRenderingMode(.alwaysTemplate)
             case index(ofWebsite: .privacyPolicy):
-                linkCell.linkTitle = "Privacy Policy"
+                linkCell.linkTitle = "Unwichtiges"
                 linkCell.linkImage = UIImage(named: "WAPrivacyPolicyIcon")!.withRenderingMode(.alwaysTemplate)
             case index(ofWebsite: .licenseAgreement):
-                linkCell.linkTitle = "License Agreement"
+                linkCell.linkTitle = "License (noch mehr unwichtiges)"
                 linkCell.linkImage = UIImage(named: "WALicenseIcon")!.withRenderingMode(.alwaysTemplate)
             default:
                 break
