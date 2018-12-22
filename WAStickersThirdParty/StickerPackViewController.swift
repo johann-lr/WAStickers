@@ -182,15 +182,15 @@ class StickerPackViewController: UIViewController, UICollectionViewDataSource, U
     
     // MARK: Targets
     func showActionSheet(withSticker sticker: Sticker, overCell cell: UICollectionViewCell) {
-        var emojisString: String? = nil
+        /*var emojisString: String? = nil
         #if DEBUG
         if let emojis = sticker.emojis {
             emojisString = emojis.joined(separator: " ")
         }
         #endif
-        
-        let actionSheet: UIAlertController = UIAlertController(title: "\n\n\n\n\n\n", message: emojisString, preferredStyle: .actionSheet)
-        
+ */
+        let actionSheet: UIAlertController = UIAlertController(title: "\n\n\n\n\n\n", message: "", preferredStyle: .actionSheet)
+ 
         actionSheet.popoverPresentationController?.sourceView = cell.contentView
         actionSheet.popoverPresentationController?.permittedArrowDirections = UIPopoverArrowDirection()
         actionSheet.popoverPresentationController?.sourceRect = CGRect(x: cell.contentView.bounds.midX, y: cell.contentView.bounds.midY, width: 0, height: 0)

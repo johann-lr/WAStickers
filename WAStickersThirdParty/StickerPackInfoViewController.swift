@@ -18,6 +18,7 @@ class StickerPackInfoViewController: UITableViewController {
 
     private static let footerString: String = """
     Sticker pack application by Johann Laur (joarlaur@icloud.com) - Template for the app: whatsapp.com
+    Sticker collection from discord and other web services
     """
     private var footerHeight: CGFloat {
         var insets: UIEdgeInsets = .zero
@@ -50,6 +51,7 @@ class StickerPackInfoViewController: UITableViewController {
             index += 1
         }
     }
+ 
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -139,26 +141,26 @@ class StickerPackInfoViewController: UITableViewController {
                 secondaryCell.secondaryText = "Tray Icon"
             case 1:
                 secondaryCell.primaryText = stickerPack.publisher
-                secondaryCell.secondaryText = "Author"
+                secondaryCell.secondaryText = "Publisher"
             case 2:
                 secondaryCell.primaryText = stickerPack.formattedSize
-                secondaryCell.secondaryText = "Size"
+                secondaryCell.secondaryText = "Größe Gesamt"
             default:
                 break
             }
         } else {
             cell = tableView.dequeueReusableCell(withIdentifier: "LinkCell")
-            let linkCell = cell as! LinkTableViewCell
+           let linkCell = cell as! LinkTableViewCell
 
             switch indexPath.row {
             case index(ofWebsite: .publisher):
-                linkCell.linkTitle = "Homepage/AppPage"
+                linkCell.linkTitle = "Publisher Website"
                 linkCell.linkImage = UIImage(named: "WAWebsiteIcon")!.withRenderingMode(.alwaysTemplate)
             case index(ofWebsite: .privacyPolicy):
-                linkCell.linkTitle = "Unwichtiges"
+                linkCell.linkTitle = "Privacy Policy"
                 linkCell.linkImage = UIImage(named: "WAPrivacyPolicyIcon")!.withRenderingMode(.alwaysTemplate)
             case index(ofWebsite: .licenseAgreement):
-                linkCell.linkTitle = "License (noch mehr unwichtiges)"
+                linkCell.linkTitle = "License Agreement"
                 linkCell.linkImage = UIImage(named: "WALicenseIcon")!.withRenderingMode(.alwaysTemplate)
             default:
                 break
@@ -201,6 +203,7 @@ class StickerPackInfoViewController: UITableViewController {
                 }
             }
         }
+ 
     }
 
     override func tableView(_ tableView: UITableView, shouldHighlightRowAt indexPath: IndexPath) -> Bool {

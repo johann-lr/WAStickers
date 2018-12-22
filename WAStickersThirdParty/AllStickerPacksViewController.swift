@@ -53,7 +53,7 @@ class AllStickerPacksViewController: UIViewController, UITableViewDataSource, UI
     }
 
     private func fetchStickerPacks() {
-        let loadingAlert: UIAlertController = UIAlertController(title: "Loading sticker packs", message: "\n\n", preferredStyle: .alert)
+        let loadingAlert: UIAlertController = UIAlertController(title: "Stiggers werden geladen", message: "\n\n", preferredStyle: .alert)
         loadingAlert.addSpinner()
         present(loadingAlert, animated: true, completion: nil)
 
@@ -139,7 +139,7 @@ class AllStickerPacksViewController: UIViewController, UITableViewDataSource, UI
     }
 
     @objc func addButtonTapped(button: UIButton) {
-        let loadingAlert: UIAlertController = UIAlertController(title: "Sending to WhatsApp", message: "\n\n", preferredStyle: .alert)
+        let loadingAlert: UIAlertController = UIAlertController(title: "Übertrage nach Whatsapp...", message: "\n\n", preferredStyle: .alert)
         loadingAlert.addSpinner()
         present(loadingAlert, animated: true, completion: nil)
 

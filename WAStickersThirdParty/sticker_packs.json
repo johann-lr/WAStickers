@@ -1,0 +1,46 @@
+{
+    "ios_app_store_link" : "",
+    "android_play_store_link" : "",
+    "sticker_packs" : [
+    {
+        "identifier": "stiggers",
+        "name": "Schöne Stiggers",
+        "publisher": "jhn.l",
+        "tray_image_file" : "tray.png",
+        "publisher_website" : "https://russia-is.cool",
+        "privacy_policy_website" : "-",
+        "license_agreement_website" : "-",
+        "stickers": [
+        {
+            "image_file": "blobthink.png"
+        },
+        {
+            "image_file": "blobthink2.png"
+        },
+        {
+            "image_file": "smile.png"
+        },
+        {
+            "image_file": "dudumm.png"
+        },
+        {
+            "image_file": "ohshit.png"
+        },
+        {
+            "image_file": "schüüä.png"
+        },
+        {
+            "image_file": "smile.png"
+        },
+        {
+            "image_file": "sticker.png"
+        },
+        {
+            "image_file": "tray.png"
+        },
+        {
+            "image_file": "yay.png"
+        }
+    ]
+    }]
+}
