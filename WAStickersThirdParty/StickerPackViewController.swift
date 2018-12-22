@@ -27,10 +27,6 @@ class StickerPackViewController: UIViewController, UICollectionViewDataSource, U
     private var bottomGradientView: GradientView = GradientView(topColor: UIColor.white.withAlphaComponent(0.0), bottomColor: UIColor.white)
     private var topDivider: UIView = UIView()
 
-    private var portraitOrientation: Bool {
-        return UIDevice.current.orientation == .portrait || UIDevice.current.orientation == .faceUp || UIDevice.current.orientation == .faceDown || UIDevice.current.orientation == .portraitUpsideDown
-    }
-
     var stickerPack: StickerPack!
 
     override func viewDidLoad() {
@@ -44,9 +40,7 @@ class StickerPackViewController: UIViewController, UICollectionViewDataSource, U
             stickersCollectionView.isPrefetchingEnabled = false
         }
         stickersCollectionView.register(StickerCell.self, forCellWithReuseIdentifier: "StickerCell")
-        stickersCollectionView.scrollIndicatorInsets.bottom = 10
-
-        itemsPerRow = portraitOrientation ? portraitItems : landscapeItems
+        stickersCollectionView.scrollIndicatorInsets.bottom = 4
 
         let infoButton: UIButton = UIButton(type: .infoLight)
         infoButton.addTarget(self, action: #selector(infoPressed(button:)), for: .touchUpInside)
@@ -90,7 +84,6 @@ class StickerPackViewController: UIViewController, UICollectionViewDataSource, U
         view.addSubview(tapGuideLabel)
 
         let buttonSize: CGSize = CGSize(width: 280.0, height: 50.0)
-        let buttonLandscapeSize: CGSize = CGSize(width: 250.0, height: 50.0)
         let buttonBottomMargin: CGFloat = 20.0
 
         // Share button constraints
@@ -102,11 +95,8 @@ class StickerPackViewController: UIViewController, UICollectionViewDataSource, U
         view.addConstraint(centerPortraitShareConstraint)
         view.addConstraint(centerLandscapeShareConstraint)
         let widthPortraitShareConstraint = NSLayoutConstraint(item: shareButton, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .width, multiplier: 1.0, constant: buttonSize.width)
-        let widthLandscapeShareConstraint = NSLayoutConstraint(item: shareButton, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .width, multiplier: 1.0, constant: buttonLandscapeSize.width)
         shareButton.addConstraint(widthPortraitShareConstraint)
-        shareButton.addConstraint(widthLandscapeShareConstraint)
         portraitConstraints.append(widthPortraitShareConstraint)
-        landscapeConstraints.append(widthLandscapeShareConstraint)
         shareButton.addConstraint(NSLayoutConstraint(item: shareButton, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .height, multiplier: 1.0, constant: buttonSize.height))
 
         // Add button constraints
@@ -123,11 +113,8 @@ class StickerPackViewController: UIViewController, UICollectionViewDataSource, U
         view.addConstraint(centerPortraitAddConstraint)
         view.addConstraint(centerLandscapeAddConstraint)
         let widthPortraitAddConstraint = NSLayoutConstraint(item: addButton, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .width, multiplier: 1.0, constant: buttonSize.width)
-        let widthLandscapeAddConstraint = NSLayoutConstraint(item: addButton, attribute: .width, relatedBy: .equal, toItem: nil, attribute: .width, multiplier: 1.0, constant: buttonLandscapeSize.width)
         addButton.addConstraint(widthPortraitAddConstraint)
-        addButton.addConstraint(widthLandscapeAddConstraint)
         portraitConstraints.append(widthPortraitAddConstraint)
-        landscapeConstraints.append(widthLandscapeAddConstraint)
         addButton.addConstraint(NSLayoutConstraint(item: addButton, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .height, multiplier: 1.0, constant: buttonSize.height))
 
         // Tap guide label constraints
@@ -153,25 +140,6 @@ class StickerPackViewController: UIViewController, UICollectionViewDataSource, U
         view.addConstraint(NSLayoutConstraint(item: topDivider, attribute: .leading, relatedBy: .equal, toItem: view, attribute: .leading, multiplier: 1.0, constant: 0.0))
         view.addConstraint(NSLayoutConstraint(item: topDivider, attribute: .trailing, relatedBy: .equal, toItem: view, attribute: .trailing, multiplier: 1.0, constant: 0.0))
         topDivider.addConstraint(NSLayoutConstraint(item: topDivider, attribute: .height, relatedBy: .equal, toItem: nil, attribute: .height, multiplier: 1.0, constant: 1.0))
-
-        changeConstraints()
-    }
-
-    private func changeConstraints() {
-        for constraint in portraitConstraints {
-            constraint.isActive = portraitOrientation
-        }
-
-        for constraint in landscapeConstraints {
-            constraint.isActive = !portraitOrientation
-        }
-    }
-
-    override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
-        super.viewWillTransition(to: size, with: coordinator)
-
-        itemsPerRow = portraitOrientation ? portraitItems : landscapeItems
-        changeConstraints()
     }
 
     // MARK: Scrollview

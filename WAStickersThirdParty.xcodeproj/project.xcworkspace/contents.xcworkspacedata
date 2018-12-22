@@ -2,6 +2,12 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:WAStickersThirdParty.xcodeproj">
+      location = "group:onelove.ttf">
+   </FileRef>
+   <FileRef
+      location = "group:../../../../../Downloads/onelove/onelove.ttf">
+   </FileRef>
+   <FileRef
+      location = "self:">
    </FileRef>
 </Workspace>

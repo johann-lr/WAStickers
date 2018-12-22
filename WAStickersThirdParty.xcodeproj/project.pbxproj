@@ -64,7 +64,10 @@
 		8AC235042149FA3000E3667B /* 11_Cuppy_upset.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC235032149FA2F00E3667B /* 11_Cuppy_upset.png */; };
 		8ACB6A981FE9CB7700A564BB /* Limits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB6A971FE9CB7700A564BB /* Limits.swift */; };
 		8ADA60761FD71F69006C9BBA /* AllStickerPacksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA60751FD71F69006C9BBA /* AllStickerPacksViewController.swift */; };
+		EA854FE321CE749800128465 /* onelove.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA854FE221CE749800128465 /* onelove.ttf */; };
+		EA854FE721CE772300128465 /* Prisma.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA854FE621CE772300128465 /* Prisma.ttf */; };
 		EA9DC97921CE6F79009913C2 /* sticker.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9DC97821CE6F79009913C2 /* sticker.png */; };
+		EA9DC97B21CE708D009913C2 /* 500266423617323019.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9DC97A21CE708D009913C2 /* 500266423617323019.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -154,7 +157,10 @@
 		8AC235032149FA2F00E3667B /* 11_Cuppy_upset.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = 11_Cuppy_upset.png; sourceTree = "<group>"; };
 		8ACB6A971FE9CB7700A564BB /* Limits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Limits.swift; sourceTree = "<group>"; };
 		8ADA60751FD71F69006C9BBA /* AllStickerPacksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllStickerPacksViewController.swift; sourceTree = "<group>"; };
+		EA854FE221CE749800128465 /* onelove.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = onelove.ttf; sourceTree = "<group>"; };
+		EA854FE621CE772300128465 /* Prisma.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Prisma.ttf; sourceTree = "<group>"; };
 		EA9DC97821CE6F79009913C2 /* sticker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sticker.png; path = ../../../../../Desktop/sticker.png; sourceTree = "<group>"; };
+		EA9DC97A21CE708D009913C2 /* 500266423617323019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 500266423617323019.png; path = ../../../../../Downloads/500266423617323019.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -220,8 +226,10 @@
 				8ADA60721FD71C8D006C9BBA /* UI */,
 				8A18E2F31FB3B4840082201D /* WebP */,
 				8A22EE0A1F9A9F40003A7F21 /* Assets.xcassets */,
+				EA9DC97A21CE708D009913C2 /* 500266423617323019.png */,
 				8A22EE0C1F9A9F40003A7F21 /* LaunchScreen.storyboard */,
 				8A22EE0F1F9A9F40003A7F21 /* Info.plist */,
+				EA854FE121CE747900128465 /* fonts */,
 				8A18E2E31FB3B47A0082201D /* WAStickersThirdParty-Bridging-Header.h */,
 			);
 			path = WAStickersThirdParty;
@@ -295,6 +303,15 @@
 				8A6001CB20298225001EC448 /* GradientView.swift */,
 			);
 			name = UI;
+			sourceTree = "<group>";
+		};
+		EA854FE121CE747900128465 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EA854FE621CE772300128465 /* Prisma.ttf */,
+				EA854FE221CE749800128465 /* onelove.ttf */,
+			);
+			name = fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -372,7 +389,9 @@
 				8AC234892146F63D00E3667B /* tray_Cuppy.png in Resources */,
 				8A27F11C1FD73DD0001B2BBD /* StickerPackTableViewCell.xib in Resources */,
 				8AC234A92146F65500E3667B /* 14_Cuppy_weird.png in Resources */,
+				EA9DC97B21CE708D009913C2 /* 500266423617323019.png in Resources */,
 				8AC234AD2146F65500E3667B /* 01_Cuppy_smile.png in Resources */,
+				EA854FE321CE749800128465 /* onelove.ttf in Resources */,
 				8AC234AA2146F65500E3667B /* 22_Cuppy_bye.png in Resources */,
 				8AC234A52146F65500E3667B /* 09_Cuppy_lovewithcookie.png in Resources */,
 				8AC234AE2146F65500E3667B /* 21_Cuppy_hi.png in Resources */,
@@ -389,6 +408,7 @@
 				8AC234AF2146F65500E3667B /* 02_Cuppy_lol.png in Resources */,
 				8AC234A42146F65500E3667B /* 06_Cuppy_love.png in Resources */,
 				8A22EE091F9A9F40003A7F21 /* Main.storyboard in Resources */,
+				EA854FE721CE772300128465 /* Prisma.ttf in Resources */,
 				8AC234B32146F65500E3667B /* 13_Cuppy_curious.png in Resources */,
 				8AC234B22146F65500E3667B /* 24_Cuppy_phone.png in Resources */,
 				8AC234B62146F65500E3667B /* 25_Cuppy_battery.png in Resources */,
@@ -572,15 +592,15 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 57T9237FN3;
+				DEVELOPMENT_TEAM = W9N8RAYT8J;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = WAStickersThirdParty/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = WA.WAStickersThirdParty;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Johann-Laur.WAStickers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WAStickersThirdParty/WAStickersThirdParty-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
@@ -596,15 +616,15 @@
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 57T9237FN3;
+				DEVELOPMENT_TEAM = W9N8RAYT8J;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = WAStickersThirdParty/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = WA.WAStickersThirdParty;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Johann-Laur.WAStickers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_OBJC_BRIDGING_HEADER = "WAStickersThirdParty/WAStickersThirdParty-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
