@@ -64,8 +64,7 @@
 		8AC235042149FA3000E3667B /* 11_Cuppy_upset.png in Resources */ = {isa = PBXBuildFile; fileRef = 8AC235032149FA2F00E3667B /* 11_Cuppy_upset.png */; };
 		8ACB6A981FE9CB7700A564BB /* Limits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB6A971FE9CB7700A564BB /* Limits.swift */; };
 		8ADA60761FD71F69006C9BBA /* AllStickerPacksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA60751FD71F69006C9BBA /* AllStickerPacksViewController.swift */; };
-		EA9DC97721CE6388009913C2 /* suuEmoji.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9DC97621CE6388009913C2 /* suuEmoji.png */; };
-		EAEC1BD921CDAD2800570CB8 /* 391578546352553984.png in Resources */ = {isa = PBXBuildFile; fileRef = EAEC1BD821CDAD2800570CB8 /* 391578546352553984.png */; };
+		EA9DC97921CE6F79009913C2 /* sticker.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9DC97821CE6F79009913C2 /* sticker.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -155,8 +154,7 @@
 		8AC235032149FA2F00E3667B /* 11_Cuppy_upset.png */ = {isa = PBXFileReference; explicitFileType = compiled; path = 11_Cuppy_upset.png; sourceTree = "<group>"; };
 		8ACB6A971FE9CB7700A564BB /* Limits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Limits.swift; sourceTree = "<group>"; };
 		8ADA60751FD71F69006C9BBA /* AllStickerPacksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllStickerPacksViewController.swift; sourceTree = "<group>"; };
-		EA9DC97621CE6388009913C2 /* suuEmoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = suuEmoji.png; path = ../../../../../../Downloads/suuEmoji.png; sourceTree = "<group>"; };
-		EAEC1BD821CDAD2800570CB8 /* 391578546352553984.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 391578546352553984.png; path = ../../../../../../Downloads/391578546352553984.png; sourceTree = "<group>"; };
+		EA9DC97821CE6F79009913C2 /* sticker.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = sticker.png; path = ../../../../../Desktop/sticker.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -232,12 +230,11 @@
 		8A26A6A71FEB2E2400256DE8 /* SampleStickers */ = {
 			isa = PBXGroup;
 			children = (
-				EA9DC97621CE6388009913C2 /* suuEmoji.png */,
 				8AC234882146F63D00E3667B /* tray_Cuppy.png */,
+				EA9DC97821CE6F79009913C2 /* sticker.png */,
 				8AC234942146F65100E3667B /* 01_Cuppy_smile.png */,
 				8AC234962146F65200E3667B /* 02_Cuppy_lol.png */,
 				8AC234972146F65200E3667B /* 03_Cuppy_rofl.png */,
-				EAEC1BD821CDAD2800570CB8 /* 391578546352553984.png */,
 				8AC2349B2146F65300E3667B /* 04_Cuppy_sad.png */,
 				8AC2349F2146F65400E3667B /* 05_Cuppy_cry.png */,
 				8AC2348B2146F65000E3667B /* 06_Cuppy_love.png */,
@@ -385,14 +382,13 @@
 				8A22EE0E1F9A9F40003A7F21 /* LaunchScreen.storyboard in Resources */,
 				8A22EE0B1F9A9F40003A7F21 /* Assets.xcassets in Resources */,
 				8AC235042149FA3000E3667B /* 11_Cuppy_upset.png in Resources */,
+				EA9DC97921CE6F79009913C2 /* sticker.png in Resources */,
 				8AC234AB2146F65500E3667B /* 12_Cuppy_angry.png in Resources */,
 				8AC234B42146F65500E3667B /* 04_Cuppy_sad.png in Resources */,
 				8A27F1311FD9E987001B2BBD /* LinkTableViewCell.xib in Resources */,
 				8AC234AF2146F65500E3667B /* 02_Cuppy_lol.png in Resources */,
 				8AC234A42146F65500E3667B /* 06_Cuppy_love.png in Resources */,
-				EA9DC97721CE6388009913C2 /* suuEmoji.png in Resources */,
 				8A22EE091F9A9F40003A7F21 /* Main.storyboard in Resources */,
-				EAEC1BD921CDAD2800570CB8 /* 391578546352553984.png in Resources */,
 				8AC234B32146F65500E3667B /* 13_Cuppy_curious.png in Resources */,
 				8AC234B22146F65500E3667B /* 24_Cuppy_phone.png in Resources */,
 				8AC234B62146F65500E3667B /* 25_Cuppy_battery.png in Resources */,

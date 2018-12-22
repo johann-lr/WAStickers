@@ -25,6 +25,8 @@ class AllStickerPacksViewController: UIViewController, UITableViewDataSource, UI
         navigationController?.navigationBar.alpha = 0.0;
         stickerPacksTableView.register(UINib(nibName: "StickerPackTableViewCell", bundle: nil), forCellReuseIdentifier: "StickerPackCell")
         stickerPacksTableView.tableFooterView = UIView(frame: .zero)
+        
+        aIndicator.stopAnimating()
     }
 
     override func viewWillAppear(_ animated: Bool) {
@@ -34,16 +36,19 @@ class AllStickerPacksViewController: UIViewController, UITableViewDataSource, UI
             stickerPacksTableView.deselectRow(at: selectedIndex, animated: true)
         }
     }
+    
+    let aIndicator:UIActivityIndicatorView = UIActivityIndicatorView()
 
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated)
         if needsFetchStickerPacks {
-            let alert: UIAlertController = UIAlertController(title: "Don't ship this sample app!", message: "If you want to ship your sticker packs to the App Store, create your own app with its own user interface. Your app must have minimum to no resemblance to this sample app.", preferredStyle: .alert)
-            alert.addAction(UIAlertAction(title: "OK", style: .cancel, handler: { action in
-                self.needsFetchStickerPacks = false
-                self.fetchStickerPacks()
-            }))
-            present(alert, animated: true, completion:nil)
+            aIndicator.center = self.view.center
+            aIndicator.hidesWhenStopped = true
+            aIndicator.activityIndicatorViewStyle = UIActivityIndicatorViewStyle.gray
+            view.addSubview(aIndicator)
+            aIndicator.startAnimating()
+            self.needsFetchStickerPacks = false
+            self.fetchStickerPacks()
         }
     }
 
