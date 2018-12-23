@@ -38,6 +38,7 @@
 		8ABEBD8421029767005F348C /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABEBD8321029766005F348C /* WebP.framework */; };
 		8ACB6A981FE9CB7700A564BB /* Limits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB6A971FE9CB7700A564BB /* Limits.swift */; };
 		8ADA60761FD71F69006C9BBA /* AllStickerPacksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA60751FD71F69006C9BBA /* AllStickerPacksViewController.swift */; };
+		EA22A8A621CEC90E000396E1 /* schön.png in Resources */ = {isa = PBXBuildFile; fileRef = EA22A8A521CEC90E000396E1 /* schön.png */; };
 		EA4D2E1421CE8EE10072CF7E /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2E0821CE8EE00072CF7E /* smile.png */; };
 		EA4D2E1521CE8EE10072CF7E /* iconSm.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2E0921CE8EE00072CF7E /* iconSm.png */; };
 		EA4D2E1621CE8EE10072CF7E /* blobthink2.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2E0A21CE8EE00072CF7E /* blobthink2.png */; };
@@ -61,6 +62,7 @@
 		EA854FE321CE749800128465 /* onelove.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA854FE221CE749800128465 /* onelove.ttf */; };
 		EA854FE721CE772300128465 /* Prisma.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA854FE621CE772300128465 /* Prisma.ttf */; };
 		EA9DC97B21CE708D009913C2 /* 500266423617323019.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9DC97A21CE708D009913C2 /* 500266423617323019.png */; };
+		EAEC947E21CE9A7D0030EA61 /* tobi.png in Resources */ = {isa = PBXBuildFile; fileRef = EAEC947D21CE9A7D0030EA61 /* tobi.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -124,6 +126,7 @@
 		8ABEBD8321029766005F348C /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
 		8ACB6A971FE9CB7700A564BB /* Limits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Limits.swift; sourceTree = "<group>"; };
 		8ADA60751FD71F69006C9BBA /* AllStickerPacksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllStickerPacksViewController.swift; sourceTree = "<group>"; };
+		EA22A8A521CEC90E000396E1 /* schön.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "schön.png"; sourceTree = "<group>"; };
 		EA4D2E0821CE8EE00072CF7E /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
 		EA4D2E0921CE8EE00072CF7E /* iconSm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconSm.png; sourceTree = "<group>"; };
 		EA4D2E0A21CE8EE00072CF7E /* blobthink2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blobthink2.png; sourceTree = "<group>"; };
@@ -147,6 +150,7 @@
 		EA854FE221CE749800128465 /* onelove.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = onelove.ttf; sourceTree = "<group>"; };
 		EA854FE621CE772300128465 /* Prisma.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Prisma.ttf; sourceTree = "<group>"; };
 		EA9DC97A21CE708D009913C2 /* 500266423617323019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 500266423617323019.png; path = ../../../../../Downloads/500266423617323019.png; sourceTree = "<group>"; };
+		EAEC947D21CE9A7D0030EA61 /* tobi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tobi.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -231,6 +235,8 @@
 				EA4D2E2221CE95500072CF7E /* maus.png */,
 				EA4D2E2321CE95500072CF7E /* moonhaha.png */,
 				EA4D2E2521CE95500072CF7E /* ohNO.png */,
+				EA22A8A521CEC90E000396E1 /* schön.png */,
+				EAEC947D21CE9A7D0030EA61 /* tobi.png */,
 				EA4D2E2721CE95500072CF7E /* uff.png */,
 				EA4D2E0F21CE8EE00072CF7E /* blobthink.png */,
 				EA4D2E0A21CE8EE00072CF7E /* blobthink2.png */,
@@ -359,12 +365,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA22A8A621CEC90E000396E1 /* schön.png in Resources */,
 				EA4D2E2E21CE95500072CF7E /* frog.png in Resources */,
 				8A27F12F1FD9E733001B2BBD /* SecondaryTextTableViewCell.xib in Resources */,
 				8A27F11C1FD73DD0001B2BBD /* StickerPackTableViewCell.xib in Resources */,
 				EA4D2E2C21CE95500072CF7E /* haha.png in Resources */,
 				EA9DC97B21CE708D009913C2 /* 500266423617323019.png in Resources */,
 				EA854FE321CE749800128465 /* onelove.ttf in Resources */,
+				EAEC947E21CE9A7D0030EA61 /* tobi.png in Resources */,
 				8A22EE0E1F9A9F40003A7F21 /* LaunchScreen.storyboard in Resources */,
 				EA4D2E2821CE95500072CF7E /* andreas.png in Resources */,
 				EA4D2E2A21CE95500072CF7E /* maus.png in Resources */,
@@ -563,6 +571,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W9N8RAYT8J;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -570,10 +579,11 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = WAStickersThirdParty/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Johann-Laur.WAStickers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "WAStickersThirdParty/WAStickersThirdParty-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.0;
@@ -587,6 +597,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = W9N8RAYT8J;
 				FRAMEWORK_SEARCH_PATHS = (
@@ -594,10 +605,11 @@
 					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = WAStickersThirdParty/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Johann-Laur.WAStickers";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "WAStickersThirdParty/WAStickersThirdParty-Bridging-Header.h";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = 1;

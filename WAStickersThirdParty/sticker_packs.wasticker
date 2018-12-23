@@ -19,52 +19,52 @@
         },
         {
             "image_file": "smile.png"
-        },
-        {
-            "image_file": "dudumm.png"
-        },
-        {
-            "image_file": "ohshit.png"
-        },
-        {
-            "image_file": "schüüä.png"
-        },
-        {
-            "image_file": "smile.png"
-        },
-        {
-            "image_file": "sticker.png"
-        },
-        {
-            "image_file": "tray.png"
-        },
-        {
-            "image_file": "yay.png"
-        }
-        {
-            "image_file": "andreas.png"
-        },
-        {
-            "image_file": "frog.png"
-        },
-        {
-            "image_file": "ghosthug.png"
-        },
-        {
-            "image_file": "haha.png"
-        },
-        {
-            "image_file": "maus.png"
-        },
-        {
-            "image_file": "moonhaha.png"
-        },
-        {
-            "image_file": "uff.png"
-        },
-        {
-            "image_file": "ohNO.png"
-        }
+},
+{
+"image_file": "dudumm.png"
+},
+{
+"image_file": "ohshit.png"
+},
+{
+"image_file": "schmüüä.png"
+},
+{
+"image_file": "sticker.png"
+},
+{
+"image_file": "yay.png"
+},{
+"image_file": "andreas.png"
+},
+{
+"image_file": "frog.png"
+},
+{
+"image_file": "ghosthug.png"
+},
+{
+"image_file": "haha.png"
+},
+{
+"image_file": "maus.png"
+},
+{
+"image_file": "moonhaha.png"
+},
+{
+"image_file": "uff.png"
+},
+{
+"image_file": "ohNO.png"
+},
+{
+"image_file": "tobi.png"
+},
+{
+"image_file": "schön.png"
+}
+
     ]
     }]
 }
