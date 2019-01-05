@@ -61,8 +61,8 @@
 		EA4D2E2F21CE95500072CF7E /* uff.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2E2721CE95500072CF7E /* uff.png */; };
 		EA854FE321CE749800128465 /* onelove.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA854FE221CE749800128465 /* onelove.ttf */; };
 		EA854FE721CE772300128465 /* Prisma.ttf in Resources */ = {isa = PBXBuildFile; fileRef = EA854FE621CE772300128465 /* Prisma.ttf */; };
-		EA9DC97B21CE708D009913C2 /* 500266423617323019.png in Resources */ = {isa = PBXBuildFile; fileRef = EA9DC97A21CE708D009913C2 /* 500266423617323019.png */; };
 		EAEC947E21CE9A7D0030EA61 /* tobi.png in Resources */ = {isa = PBXBuildFile; fileRef = EAEC947D21CE9A7D0030EA61 /* tobi.png */; };
+		EAFA5CFE21E16F7000981607 /* paint.png in Resources */ = {isa = PBXBuildFile; fileRef = EAFA5CFD21E16F7000981607 /* paint.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -149,8 +149,8 @@
 		EA4D2E2721CE95500072CF7E /* uff.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = uff.png; sourceTree = "<group>"; };
 		EA854FE221CE749800128465 /* onelove.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = onelove.ttf; sourceTree = "<group>"; };
 		EA854FE621CE772300128465 /* Prisma.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Prisma.ttf; sourceTree = "<group>"; };
-		EA9DC97A21CE708D009913C2 /* 500266423617323019.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 500266423617323019.png; path = ../../../../../Downloads/500266423617323019.png; sourceTree = "<group>"; };
 		EAEC947D21CE9A7D0030EA61 /* tobi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tobi.png; sourceTree = "<group>"; };
+		EAFA5CFD21E16F7000981607 /* paint.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = paint.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -216,7 +216,6 @@
 				8ADA60721FD71C8D006C9BBA /* UI */,
 				8A18E2F31FB3B4840082201D /* WebP */,
 				8A22EE0A1F9A9F40003A7F21 /* Assets.xcassets */,
-				EA9DC97A21CE708D009913C2 /* 500266423617323019.png */,
 				8A22EE0C1F9A9F40003A7F21 /* LaunchScreen.storyboard */,
 				8A22EE0F1F9A9F40003A7F21 /* Info.plist */,
 				EA854FE121CE747900128465 /* fonts */,
@@ -237,6 +236,7 @@
 				EA4D2E2521CE95500072CF7E /* ohNO.png */,
 				EA22A8A521CEC90E000396E1 /* schön.png */,
 				EAEC947D21CE9A7D0030EA61 /* tobi.png */,
+				EAFA5CFD21E16F7000981607 /* paint.png */,
 				EA4D2E2721CE95500072CF7E /* uff.png */,
 				EA4D2E0F21CE8EE00072CF7E /* blobthink.png */,
 				EA4D2E0A21CE8EE00072CF7E /* blobthink2.png */,
@@ -370,7 +370,6 @@
 				8A27F12F1FD9E733001B2BBD /* SecondaryTextTableViewCell.xib in Resources */,
 				8A27F11C1FD73DD0001B2BBD /* StickerPackTableViewCell.xib in Resources */,
 				EA4D2E2C21CE95500072CF7E /* haha.png in Resources */,
-				EA9DC97B21CE708D009913C2 /* 500266423617323019.png in Resources */,
 				EA854FE321CE749800128465 /* onelove.ttf in Resources */,
 				EAEC947E21CE9A7D0030EA61 /* tobi.png in Resources */,
 				8A22EE0E1F9A9F40003A7F21 /* LaunchScreen.storyboard in Resources */,
@@ -397,6 +396,7 @@
 				EA4D2E2F21CE95500072CF7E /* uff.png in Resources */,
 				EA4D2E1C21CE8EE10072CF7E /* dudumm.png in Resources */,
 				EA4D2E1A21CE8EE10072CF7E /* schmüüä.png in Resources */,
+				EAFA5CFE21E16F7000981607 /* paint.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

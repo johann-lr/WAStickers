@@ -9,13 +9,12 @@
 import UIKit
 
 struct Interoperability {
-    private static let DefaultBundleIdentifier: String = "WA.WAStickersThirdParty"
+    private static let DefaultBundleIdentifier: String = "com.Johann-Laur.schoene-stiggers"
     private static let PasteboardExpirationSeconds: TimeInterval = 60
     private static let PasteboardStickerPackDataType: String = "net.whatsapp.third-party.sticker-pack"
     private static let WhatsAppURL: URL = URL(string: "whatsapp://stickerPack")!
 
     static var iOSAppStoreLink: String?
-    static var AndroidStoreLink: String?
 
     static func canSend() -> Bool {
         return UIApplication.shared.canOpenURL(URL(string: "whatsapp://")!)
@@ -32,7 +31,6 @@ struct Interoperability {
 
         var jsonWithAppStoreLink: [String: Any] = json
         jsonWithAppStoreLink["ios_app_store_link"] = iOSAppStoreLink
-        jsonWithAppStoreLink["android_play_store_link"] = AndroidStoreLink
 
         guard let dataToSend = try? JSONSerialization.data(withJSONObject: jsonWithAppStoreLink, options: []) else {
             return false

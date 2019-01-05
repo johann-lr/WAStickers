@@ -8,69 +8,12 @@
 
 import UIKit
 
-struct StickerEmojis {
-    static func canonicalizedEmojis(rawEmojis: [String]?) throws -> [String]?{
-        if let rawEmojis = rawEmojis {
-            guard rawEmojis.count <= Limits.MaxEmojisCount else {
-                throw StickerPackError.tooManyEmojis
-            }
-
-            var canonicalizedEmojis: [String] = []
-
-            for rawEmoji in rawEmojis {
-                var emojiToAdd = canonicalizedEmoji(emoji: rawEmoji)
-
-                // If the emoji somehow isn't canonicalized, we'll use the original emoji
-                if (emojiToAdd == "") {
-                    emojiToAdd = rawEmoji
-                }
-
-                canonicalizedEmojis.append(emojiToAdd)
-            }
-
-            return canonicalizedEmojis
-        }
-
-        return nil
-    }
-
-    private static func canonicalizedEmoji(emoji: String) -> String {
-        var nonExtensionUnicodes: [Character] = []
-
-        for scalar in emoji.unicodeScalars {
-            switch scalar.value {
-            case 0x1F600...0x1F64F,    // Emoticons
-            0x1F300...0x1F5FF,         // Misc symbols and pictographs
-            0x1F680...0x1F6FF,         // Transport and maps
-            0x2600...0x26FF,           // Misc symbols
-            0x2700...0x27BF,           // Dingbats
-            0x1F1E6...0x1F1FF,         // Flags
-            0x1F900...0x1F9FF,         // Supplemental symbols and pictographs
-            0x200D:                    // Zero-width joiner
-                nonExtensionUnicodes.append(Character(UnicodeScalar(scalar.value)!))
-                break
-
-            default:
-                continue
-            }
-        }
-
-        var canonicalizedEmoji: String = ""
-        for nonExtensionUnicode in nonExtensionUnicodes {
-            canonicalizedEmoji.append(nonExtensionUnicode)
-        }
-
-        return canonicalizedEmoji
-    }
-}
-
 /**
  *  Main class that deals with each individual sticker.
  */
 class Sticker {
 
     let imageData: ImageData
-    let emojis: [String]?
 
     var bytesSize: Int64 {
         return imageData.bytesSize
@@ -90,9 +33,8 @@ class Sticker {
      - .animatedImagesNotSupported if the image is animated
      - .tooManyEmojis if there are too many emojis assigned to the sticker
      */
-    init(contentsOfFile filename: String, emojis: [String]?) throws {
+    init(contentsOfFile filename: String) throws {
         self.imageData = try ImageData.imageDataIfCompliant(contentsOfFile: filename, isTray: false)
-        self.emojis = try StickerEmojis.canonicalizedEmojis(rawEmojis: emojis)
     }
 
     /**
@@ -108,9 +50,8 @@ class Sticker {
      - .animatedImagesNotSupported if the image is animated
      - .tooManyEmojis if there are too many emojis assigned to the sticker
      */
-    init(imageData: Data, type: ImageDataExtension, emojis: [String]?) throws {
+    init(imageData: Data, type: ImageDataExtension) throws {
         self.imageData = try ImageData.imageDataIfCompliant(rawData:imageData, extensionType: type, isTray: false)
-        self.emojis = try StickerEmojis.canonicalizedEmojis(rawEmojis: emojis)
     }
 
     func copyToPasteboardAsImage() {

@@ -1,6 +1,5 @@
 {
     "ios_app_store_link" : "",
-    "android_play_store_link" : "",
     "sticker_packs" : [
     {
         "identifier": "stiggers",
@@ -63,8 +62,10 @@
 },
 {
 "image_file": "schön.png"
+},
+{
+"image_file": "paint.png"
 }
-
     ]
     }]
 }

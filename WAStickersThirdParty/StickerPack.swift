@@ -20,7 +20,6 @@ enum StickerPackError: Error {
     case animatedImagesNotSupported
     case stickersNumOutsideAllowableRange
     case stringTooLong
-    case tooManyEmojis
 }
 
 /**
@@ -163,12 +162,12 @@ class StickerPack {
      - .stickersNumOutsideAllowableRange if current number of stickers is not withing limits
      - All exceptions from Sticker(imageData:type:emojis:)
      */
-    func addSticker(imageData: Data, type: ImageDataExtension, emojis: [String]?) throws {
+    func addSticker(imageData: Data, type: ImageDataExtension) throws {
         guard stickers.count <= Limits.MaxStickersPerPack else {
             throw StickerPackError.stickersNumOutsideAllowableRange
         }
 
-        let sticker: Sticker = try Sticker(imageData: imageData, type: type, emojis: emojis)
+        let sticker: Sticker = try Sticker(imageData: imageData, type: type)
 
         stickers.append(sticker)
     }
@@ -198,8 +197,6 @@ class StickerPack {
                     print("Skipping bad sticker data")
                     continue
                 }
-
-                stickerDict["emojis"] = sticker.emojis
 
                 stickersArray.append(stickerDict)
             }

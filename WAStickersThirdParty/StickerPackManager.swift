@@ -101,11 +101,10 @@ class StickerPackManager {
 
                 let stickers: [[String: Any]] = pack["stickers"] as! [[String: Any]]
                 for sticker in stickers {
-                    let emojis: [String]? = sticker["emojis"] as? [String]
 
                     let filename = sticker["image_file"] as! String
                     do {
-                        try stickerPack!.addSticker(contentsOfFile: filename, emojis: emojis)
+                        try stickerPack!.addSticker(contentsOfFile: filename)
                     } catch StickerPackError.stickersNumOutsideAllowableRange {
                         fatalError("Sticker count outside the allowable limit (\(Limits.MaxStickersPerPack) stickers per pack).")
                     } catch StickerPackError.fileNotFound {
@@ -119,8 +118,6 @@ class StickerPackManager {
                         fatalError("\(filename): \(imageDimensions) is not compliant with sticker images dimensions, \(Limits.ImageDimensions).")
                     } catch StickerPackError.animatedImagesNotSupported {
                         fatalError("\(filename) is an animated image. Animated images are not supported.")
-                    } catch StickerPackError.tooManyEmojis {
-                        fatalError("\(filename) has too many emojis. \(Limits.MaxEmojisCount) is the maximum number.")
                     } catch {
                         fatalError(error.localizedDescription)
                     }
