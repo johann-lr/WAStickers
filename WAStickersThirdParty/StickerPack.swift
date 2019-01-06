@@ -8,9 +8,8 @@
 
 import UIKit
 
-/**
- *  Represents a variety of errors related to stickers.
- */
+
+// Represents a variety of errors related to stickers.
 enum StickerPackError: Error {
     case fileNotFound
     case emptyString
@@ -141,13 +140,11 @@ class StickerPack {
      - .stickersNumOutsideAllowableRange if current number of stickers is not withing limits
      - All exceptions from Sticker(contentsOfFile:emojis:)
      */
-    func addSticker(contentsOfFile filename: String, emojis: [String]?) throws {
+    func addSticker(contentsOfFile filename: String) throws {
         guard stickers.count <= Limits.MaxStickersPerPack else {
             throw StickerPackError.stickersNumOutsideAllowableRange
         }
-
-        let sticker: Sticker = try Sticker(contentsOfFile: filename, emojis: emojis)
-
+        let sticker: Sticker = try Sticker(contentsOfFile: filename)
         stickers.append(sticker)
     }
 
@@ -166,9 +163,7 @@ class StickerPack {
         guard stickers.count <= Limits.MaxStickersPerPack else {
             throw StickerPackError.stickersNumOutsideAllowableRange
         }
-
         let sticker: Sticker = try Sticker(imageData: imageData, type: type)
-
         stickers.append(sticker)
     }
 
