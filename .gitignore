@@ -3,3 +3,7 @@ xcuserdata
 **/project.xcworkspace/xcuserdata
 .DS_Store
 .idea/
+SampleStickers/
+# create that folder after cloning for sticker pngs
+*.png
+# no stickers in repo

@@ -38,6 +38,8 @@
 		8ABEBD8421029767005F348C /* WebP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8ABEBD8321029766005F348C /* WebP.framework */; };
 		8ACB6A981FE9CB7700A564BB /* Limits.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ACB6A971FE9CB7700A564BB /* Limits.swift */; };
 		8ADA60761FD71F69006C9BBA /* AllStickerPacksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8ADA60751FD71F69006C9BBA /* AllStickerPacksViewController.swift */; };
+		EA16F4D921EE4C48000678A6 /* hannah.png in Resources */ = {isa = PBXBuildFile; fileRef = EA16F4D821EE4C48000678A6 /* hannah.png */; };
+		EA16F4DB21EE4D98000678A6 /* whoar.png in Resources */ = {isa = PBXBuildFile; fileRef = EA16F4DA21EE4D97000678A6 /* whoar.png */; };
 		EA22A8A621CEC90E000396E1 /* schön.png in Resources */ = {isa = PBXBuildFile; fileRef = EA22A8A521CEC90E000396E1 /* schön.png */; };
 		EA4D2E1421CE8EE10072CF7E /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2E0821CE8EE00072CF7E /* smile.png */; };
 		EA4D2E1521CE8EE10072CF7E /* iconSm.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2E0921CE8EE00072CF7E /* iconSm.png */; };
@@ -126,6 +128,8 @@
 		8ABEBD8321029766005F348C /* WebP.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = WebP.framework; sourceTree = "<group>"; };
 		8ACB6A971FE9CB7700A564BB /* Limits.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Limits.swift; sourceTree = "<group>"; };
 		8ADA60751FD71F69006C9BBA /* AllStickerPacksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllStickerPacksViewController.swift; sourceTree = "<group>"; };
+		EA16F4D821EE4C48000678A6 /* hannah.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hannah.png; sourceTree = "<group>"; };
+		EA16F4DA21EE4D97000678A6 /* whoar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whoar.png; sourceTree = "<group>"; };
 		EA22A8A521CEC90E000396E1 /* schön.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "schön.png"; sourceTree = "<group>"; };
 		EA4D2E0821CE8EE00072CF7E /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
 		EA4D2E0921CE8EE00072CF7E /* iconSm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconSm.png; sourceTree = "<group>"; };
@@ -234,12 +238,14 @@
 				EA4D2E2221CE95500072CF7E /* maus.png */,
 				EA4D2E2321CE95500072CF7E /* moonhaha.png */,
 				EA4D2E2521CE95500072CF7E /* ohNO.png */,
+				EA16F4D821EE4C48000678A6 /* hannah.png */,
 				EA22A8A521CEC90E000396E1 /* schön.png */,
 				EAEC947D21CE9A7D0030EA61 /* tobi.png */,
 				EAFA5CFD21E16F7000981607 /* paint.png */,
 				EA4D2E2721CE95500072CF7E /* uff.png */,
 				EA4D2E0F21CE8EE00072CF7E /* blobthink.png */,
 				EA4D2E0A21CE8EE00072CF7E /* blobthink2.png */,
+				EA16F4DA21EE4D97000678A6 /* whoar.png */,
 				EA4D2E1021CE8EE10072CF7E /* dudumm.png */,
 				EA4D2E0B21CE8EE00072CF7E /* icon.png */,
 				EA4D2E0C21CE8EE00072CF7E /* iconBig.png */,
@@ -366,6 +372,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA22A8A621CEC90E000396E1 /* schön.png in Resources */,
+				EA16F4DB21EE4D98000678A6 /* whoar.png in Resources */,
 				EA4D2E2E21CE95500072CF7E /* frog.png in Resources */,
 				8A27F12F1FD9E733001B2BBD /* SecondaryTextTableViewCell.xib in Resources */,
 				8A27F11C1FD73DD0001B2BBD /* StickerPackTableViewCell.xib in Resources */,
@@ -390,6 +397,7 @@
 				EA4D2E2B21CE95500072CF7E /* moonhaha.png in Resources */,
 				EA4D2E1921CE8EE10072CF7E /* ohshit.png in Resources */,
 				EA854FE721CE772300128465 /* Prisma.ttf in Resources */,
+				EA16F4D921EE4C48000678A6 /* hannah.png in Resources */,
 				EA4D2E1521CE8EE10072CF7E /* iconSm.png in Resources */,
 				EA4D2E1E21CE8EE10072CF7E /* tray.png in Resources */,
 				8A18E33D1FBA793F0082201D /* sticker_packs.wasticker in Resources */,
