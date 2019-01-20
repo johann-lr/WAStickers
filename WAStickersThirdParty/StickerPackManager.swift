@@ -50,7 +50,6 @@ class StickerPackManager {
             let iosAppStoreLink: String? = dict["ios_app_store_link"] as? String
             let androidAppStoreLink: String? = dict["android_play_store_link"] as? String
             Interoperability.iOSAppStoreLink = iosAppStoreLink != "" ? iosAppStoreLink : nil
-            Interoperability.AndroidStoreLink = androidAppStoreLink != "" ? androidAppStoreLink : nil
 
             for pack in packs {
                 let packName: String = pack["name"] as! String

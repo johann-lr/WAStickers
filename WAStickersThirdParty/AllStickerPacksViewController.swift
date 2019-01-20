@@ -66,7 +66,7 @@ class AllStickerPacksViewController: UIViewController, UITableViewDataSource, UI
                         self.stickerPacks = stickerPacks
                         self.stickerPacksTableView.reloadData()
                     } else {
-                        self.show(stickerPack: stickerPacks[0], animated: false)
+                        self.show(stickerPack: stickerPacks[0], animated: true)
                     }
                 })
             }
