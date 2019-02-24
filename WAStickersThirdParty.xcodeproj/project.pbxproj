@@ -15,7 +15,6 @@
 		8A18E2F11FB3B47D0082201D /* YYSpriteSheetImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A18E2EC1FB3B47C0082201D /* YYSpriteSheetImage.m */; };
 		8A18E2F21FB3B47D0082201D /* YYImageCoder.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A18E2ED1FB3B47C0082201D /* YYImageCoder.m */; };
 		8A18E3351FBA5CA90082201D /* StickerPackManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A18E3341FBA5CA90082201D /* StickerPackManager.swift */; };
-		8A18E33D1FBA793F0082201D /* sticker_packs.wasticker in Resources */ = {isa = PBXBuildFile; fileRef = 8A18E33C1FBA793F0082201D /* sticker_packs.wasticker */; };
 		8A18E33F1FBA7DC50082201D /* WebPManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A18E33E1FBA7DC50082201D /* WebPManager.swift */; };
 		8A22EE041F9A9F40003A7F21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8A22EE031F9A9F40003A7F21 /* AppDelegate.swift */; };
 		8A22EE091F9A9F40003A7F21 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8A22EE071F9A9F40003A7F21 /* Main.storyboard */; };
@@ -42,6 +41,27 @@
 		EA22A8A621CEC90E000396E1 /* schön.png in Resources */ = {isa = PBXBuildFile; fileRef = EA22A8A521CEC90E000396E1 /* schön.png */; };
 		EA2ABF3621F0EB8C0019D125 /* whoarN.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2ABF3521F0EB8C0019D125 /* whoarN.png */; };
 		EA2ABF3A21F0ED560019D125 /* whoarNN.png in Resources */ = {isa = PBXBuildFile; fileRef = EA2ABF3921F0ED560019D125 /* whoarNN.png */; };
+		EA40B2D52222F07D00C8FD87 /* okee.png in Resources */ = {isa = PBXBuildFile; fileRef = EA40B2C42222F07C00C8FD87 /* okee.png */; };
+		EA40B2D62222F07D00C8FD87 /* nee.png in Resources */ = {isa = PBXBuildFile; fileRef = EA40B2C52222F07C00C8FD87 /* nee.png */; };
+		EA40B2D72222F07D00C8FD87 /* schlafgut.png in Resources */ = {isa = PBXBuildFile; fileRef = EA40B2C62222F07C00C8FD87 /* schlafgut.png */; };
+		EA40B2D82222F07D00C8FD87 /* zzzzz.png in Resources */ = {isa = PBXBuildFile; fileRef = EA40B2C72222F07C00C8FD87 /* zzzzz.png */; };
+		EA40B2D92222F07D00C8FD87 /* gm.png in Resources */ = {isa = PBXBuildFile; fileRef = EA40B2C82222F07C00C8FD87 /* gm.png */; };
+		EA40B2DA2222F07D00C8FD87 /* legga.png in Resources */ = {isa = PBXBuildFile; fileRef = EA40B2C92222F07C00C8FD87 /* legga.png */; };
+		EA40B2DB2222F07D00C8FD87 /* zzz.png in Resources */ = {isa = PBXBuildFile; fileRef = EA40B2CA2222F07C00C8FD87 /* zzz.png */; };
+		EA40B2DC2222F07D00C8FD87 /* nixgut.png in Resources */ = {isa = PBXBuildFile; fileRef = EA40B2CB2222F07C00C8FD87 /* nixgut.png */; };
+		EA40B2DD2222F07D00C8FD87 /* klavier.png in Resources */ = {isa = PBXBuildFile; fileRef = EA40B2CC2222F07C00C8FD87 /* klavier.png */; };
+		EA40B2DE2222F07D00C8FD87 /* happybd.png in Resources */ = {isa = PBXBuildFile; fileRef = EA40B2CD2222F07C00C8FD87 /* happybd.png */; };
+		EA40B2DF2222F07D00C8FD87 /* argh.png in Resources */ = {isa = PBXBuildFile; fileRef = EA40B2CE2222F07C00C8FD87 /* argh.png */; };
+		EA40B2E02222F07D00C8FD87 /* love.png in Resources */ = {isa = PBXBuildFile; fileRef = EA40B2CF2222F07C00C8FD87 /* love.png */; };
+		EA40B2E12222F07D00C8FD87 /* schlaf.png in Resources */ = {isa = PBXBuildFile; fileRef = EA40B2D02222F07C00C8FD87 /* schlaf.png */; };
+		EA40B2E22222F07D00C8FD87 /* toll.png in Resources */ = {isa = PBXBuildFile; fileRef = EA40B2D12222F07D00C8FD87 /* toll.png */; };
+		EA40B2E32222F07D00C8FD87 /* gn.png in Resources */ = {isa = PBXBuildFile; fileRef = EA40B2D22222F07D00C8FD87 /* gn.png */; };
+		EA40B2E42222F07D00C8FD87 /* nachti.png in Resources */ = {isa = PBXBuildFile; fileRef = EA40B2D32222F07D00C8FD87 /* nachti.png */; };
+		EA40B2E52222F07D00C8FD87 /* hi.png in Resources */ = {isa = PBXBuildFile; fileRef = EA40B2D42222F07D00C8FD87 /* hi.png */; };
+		EA40B2E72222F15D00C8FD87 /* sticker_packs.wasticker in Resources */ = {isa = PBXBuildFile; fileRef = EA40B2E62222F15D00C8FD87 /* sticker_packs.wasticker */; };
+		EA40B2E92222F7E600C8FD87 /* trayBitmoji.png in Resources */ = {isa = PBXBuildFile; fileRef = EA40B2E82222F7E600C8FD87 /* trayBitmoji.png */; };
+		EA40B2EC2222F92500C8FD87 /* schöön.png in Resources */ = {isa = PBXBuildFile; fileRef = EA40B2EA2222F92500C8FD87 /* schöön.png */; };
+		EA40B2ED2222F92500C8FD87 /* cheers.png in Resources */ = {isa = PBXBuildFile; fileRef = EA40B2EB2222F92500C8FD87 /* cheers.png */; };
 		EA4D2E1421CE8EE10072CF7E /* smile.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2E0821CE8EE00072CF7E /* smile.png */; };
 		EA4D2E1521CE8EE10072CF7E /* iconSm.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2E0921CE8EE00072CF7E /* iconSm.png */; };
 		EA4D2E1621CE8EE10072CF7E /* blobthink2.png in Resources */ = {isa = PBXBuildFile; fileRef = EA4D2E0A21CE8EE00072CF7E /* blobthink2.png */; };
@@ -103,7 +123,6 @@
 		8A18E2F81FB3B5CC0082201D /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
 		8A18E2F91FB3B5D00082201D /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		8A18E3341FBA5CA90082201D /* StickerPackManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StickerPackManager.swift; sourceTree = "<group>"; };
-		8A18E33C1FBA793F0082201D /* sticker_packs.wasticker */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sticker_packs.wasticker; sourceTree = "<group>"; };
 		8A18E33E1FBA7DC50082201D /* WebPManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebPManager.swift; sourceTree = "<group>"; };
 		8A22EE001F9A9F40003A7F21 /* WAStickersThirdParty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WAStickersThirdParty.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A22EE031F9A9F40003A7F21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -134,6 +153,27 @@
 		EA22A8A521CEC90E000396E1 /* schön.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "schön.png"; sourceTree = "<group>"; };
 		EA2ABF3521F0EB8C0019D125 /* whoarN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whoarN.png; sourceTree = "<group>"; };
 		EA2ABF3921F0ED560019D125 /* whoarNN.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = whoarNN.png; sourceTree = "<group>"; };
+		EA40B2C42222F07C00C8FD87 /* okee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = okee.png; sourceTree = "<group>"; };
+		EA40B2C52222F07C00C8FD87 /* nee.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nee.png; sourceTree = "<group>"; };
+		EA40B2C62222F07C00C8FD87 /* schlafgut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schlafgut.png; sourceTree = "<group>"; };
+		EA40B2C72222F07C00C8FD87 /* zzzzz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zzzzz.png; sourceTree = "<group>"; };
+		EA40B2C82222F07C00C8FD87 /* gm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gm.png; sourceTree = "<group>"; };
+		EA40B2C92222F07C00C8FD87 /* legga.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = legga.png; sourceTree = "<group>"; };
+		EA40B2CA2222F07C00C8FD87 /* zzz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = zzz.png; sourceTree = "<group>"; };
+		EA40B2CB2222F07C00C8FD87 /* nixgut.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nixgut.png; sourceTree = "<group>"; };
+		EA40B2CC2222F07C00C8FD87 /* klavier.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = klavier.png; sourceTree = "<group>"; };
+		EA40B2CD2222F07C00C8FD87 /* happybd.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = happybd.png; sourceTree = "<group>"; };
+		EA40B2CE2222F07C00C8FD87 /* argh.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = argh.png; sourceTree = "<group>"; };
+		EA40B2CF2222F07C00C8FD87 /* love.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = love.png; sourceTree = "<group>"; };
+		EA40B2D02222F07C00C8FD87 /* schlaf.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = schlaf.png; sourceTree = "<group>"; };
+		EA40B2D12222F07D00C8FD87 /* toll.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = toll.png; sourceTree = "<group>"; };
+		EA40B2D22222F07D00C8FD87 /* gn.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = gn.png; sourceTree = "<group>"; };
+		EA40B2D32222F07D00C8FD87 /* nachti.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = nachti.png; sourceTree = "<group>"; };
+		EA40B2D42222F07D00C8FD87 /* hi.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = hi.png; sourceTree = "<group>"; };
+		EA40B2E62222F15D00C8FD87 /* sticker_packs.wasticker */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = sticker_packs.wasticker; sourceTree = "<group>"; };
+		EA40B2E82222F7E600C8FD87 /* trayBitmoji.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = trayBitmoji.png; sourceTree = "<group>"; };
+		EA40B2EA2222F92500C8FD87 /* schöön.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "schöön.png"; path = "../../../../../Downloads/Bitmoji/schöön.png"; sourceTree = "<group>"; };
+		EA40B2EB2222F92500C8FD87 /* cheers.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cheers.png; sourceTree = "<group>"; };
 		EA4D2E0821CE8EE00072CF7E /* smile.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = smile.png; sourceTree = "<group>"; };
 		EA4D2E0921CE8EE00072CF7E /* iconSm.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = iconSm.png; sourceTree = "<group>"; };
 		EA4D2E0A21CE8EE00072CF7E /* blobthink2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blobthink2.png; sourceTree = "<group>"; };
@@ -219,7 +259,8 @@
 				8A18E3341FBA5CA90082201D /* StickerPackManager.swift */,
 				8A18E33E1FBA7DC50082201D /* WebPManager.swift */,
 				8A22EE071F9A9F40003A7F21 /* Main.storyboard */,
-				8A18E33C1FBA793F0082201D /* sticker_packs.wasticker */,
+				EA40B2E62222F15D00C8FD87 /* sticker_packs.wasticker */,
+				EA40B2C32222F06900C8FD87 /* Bitmojis */,
 				8A26A6A71FEB2E2400256DE8 /* SampleStickers */,
 				8ADA60721FD71C8D006C9BBA /* UI */,
 				8A18E2F31FB3B4840082201D /* WebP */,
@@ -302,6 +343,33 @@
 			name = UI;
 			sourceTree = "<group>";
 		};
+		EA40B2C32222F06900C8FD87 /* Bitmojis */ = {
+			isa = PBXGroup;
+			children = (
+				EA40B2E82222F7E600C8FD87 /* trayBitmoji.png */,
+				EA40B2CE2222F07C00C8FD87 /* argh.png */,
+				EA40B2C82222F07C00C8FD87 /* gm.png */,
+				EA40B2D22222F07D00C8FD87 /* gn.png */,
+				EA40B2EB2222F92500C8FD87 /* cheers.png */,
+				EA40B2EA2222F92500C8FD87 /* schöön.png */,
+				EA40B2CD2222F07C00C8FD87 /* happybd.png */,
+				EA40B2D42222F07D00C8FD87 /* hi.png */,
+				EA40B2CC2222F07C00C8FD87 /* klavier.png */,
+				EA40B2C92222F07C00C8FD87 /* legga.png */,
+				EA40B2CF2222F07C00C8FD87 /* love.png */,
+				EA40B2D32222F07D00C8FD87 /* nachti.png */,
+				EA40B2C52222F07C00C8FD87 /* nee.png */,
+				EA40B2CB2222F07C00C8FD87 /* nixgut.png */,
+				EA40B2C42222F07C00C8FD87 /* okee.png */,
+				EA40B2D02222F07C00C8FD87 /* schlaf.png */,
+				EA40B2C62222F07C00C8FD87 /* schlafgut.png */,
+				EA40B2D12222F07D00C8FD87 /* toll.png */,
+				EA40B2CA2222F07C00C8FD87 /* zzz.png */,
+				EA40B2C72222F07C00C8FD87 /* zzzzz.png */,
+			);
+			name = Bitmojis;
+			sourceTree = "<group>";
+		};
 		EA854FE121CE747900128465 /* fonts */ = {
 			isa = PBXGroup;
 			children = (
@@ -377,42 +445,62 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA40B2DB2222F07D00C8FD87 /* zzz.png in Resources */,
+				EA40B2DD2222F07D00C8FD87 /* klavier.png in Resources */,
 				EA22A8A621CEC90E000396E1 /* schön.png in Resources */,
 				EA16F4DB21EE4D98000678A6 /* whoar.png in Resources */,
 				EA4D2E2E21CE95500072CF7E /* frog.png in Resources */,
+				EA40B2DC2222F07D00C8FD87 /* nixgut.png in Resources */,
 				8A27F12F1FD9E733001B2BBD /* SecondaryTextTableViewCell.xib in Resources */,
+				EA40B2D72222F07D00C8FD87 /* schlafgut.png in Resources */,
 				8A27F11C1FD73DD0001B2BBD /* StickerPackTableViewCell.xib in Resources */,
+				EA40B2E12222F07D00C8FD87 /* schlaf.png in Resources */,
 				EA4D2E2C21CE95500072CF7E /* haha.png in Resources */,
 				EA854FE321CE749800128465 /* onelove.ttf in Resources */,
 				EAEC947E21CE9A7D0030EA61 /* tobi.png in Resources */,
 				8A22EE0E1F9A9F40003A7F21 /* LaunchScreen.storyboard in Resources */,
+				EA40B2D52222F07D00C8FD87 /* okee.png in Resources */,
+				EA40B2ED2222F92500C8FD87 /* cheers.png in Resources */,
+				EA40B2D62222F07D00C8FD87 /* nee.png in Resources */,
 				EA4D2E2821CE95500072CF7E /* andreas.png in Resources */,
 				EA4D2E2A21CE95500072CF7E /* maus.png in Resources */,
+				EA40B2E02222F07D00C8FD87 /* love.png in Resources */,
 				8A22EE0B1F9A9F40003A7F21 /* Assets.xcassets in Resources */,
 				EA4D2E1421CE8EE10072CF7E /* smile.png in Resources */,
+				EA40B2E32222F07D00C8FD87 /* gn.png in Resources */,
+				EA40B2EC2222F92500C8FD87 /* schöön.png in Resources */,
+				EA40B2E72222F15D00C8FD87 /* sticker_packs.wasticker in Resources */,
 				EA4D2E2921CE95500072CF7E /* ghosthug.png in Resources */,
 				EA2ABF3621F0EB8C0019D125 /* whoarN.png in Resources */,
 				EA4D2E1D21CE8EE10072CF7E /* sticker.png in Resources */,
 				EA4D2E1B21CE8EE10072CF7E /* blobthink.png in Resources */,
 				EA4D2E1821CE8EE10072CF7E /* iconBig.png in Resources */,
+				EA40B2E22222F07D00C8FD87 /* toll.png in Resources */,
+				EA40B2DE2222F07D00C8FD87 /* happybd.png in Resources */,
 				8A27F1311FD9E987001B2BBD /* LinkTableViewCell.xib in Resources */,
+				EA40B2D82222F07D00C8FD87 /* zzzzz.png in Resources */,
 				EA4D2E2D21CE95500072CF7E /* ohNO.png in Resources */,
 				EAEA0F4721EE59570029C0EB /* hannah.png in Resources */,
 				EA4D2E1F21CE8EE10072CF7E /* yay.png in Resources */,
+				EA40B2DA2222F07D00C8FD87 /* legga.png in Resources */,
+				EA40B2E92222F7E600C8FD87 /* trayBitmoji.png in Resources */,
 				EA4D2E1721CE8EE10072CF7E /* icon.png in Resources */,
 				8A22EE091F9A9F40003A7F21 /* Main.storyboard in Resources */,
 				EA4D2E1621CE8EE10072CF7E /* blobthink2.png in Resources */,
+				EA40B2DF2222F07D00C8FD87 /* argh.png in Resources */,
 				EA4D2E2B21CE95500072CF7E /* moonhaha.png in Resources */,
 				EA4D2E1921CE8EE10072CF7E /* ohshit.png in Resources */,
 				EA2ABF3A21F0ED560019D125 /* whoarNN.png in Resources */,
 				EA854FE721CE772300128465 /* Prisma.ttf in Resources */,
 				EA4D2E1521CE8EE10072CF7E /* iconSm.png in Resources */,
+				EA40B2E42222F07D00C8FD87 /* nachti.png in Resources */,
 				EA4D2E1E21CE8EE10072CF7E /* tray.png in Resources */,
-				8A18E33D1FBA793F0082201D /* sticker_packs.wasticker in Resources */,
 				EA4D2E2F21CE95500072CF7E /* uff.png in Resources */,
 				EA4D2E1C21CE8EE10072CF7E /* dudumm.png in Resources */,
 				EA4D2E1A21CE8EE10072CF7E /* schmüüä.png in Resources */,
 				EAFA5CFE21E16F7000981607 /* paint.png in Resources */,
+				EA40B2E52222F07D00C8FD87 /* hi.png in Resources */,
+				EA40B2D92222F07D00C8FD87 /* gm.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -2,73 +2,70 @@
 "ios_app_store_link": "",
 "sticker_packs": [
 {
-"identifier": "stiggers",
-"name": "Schöne Stiggers",
+"identifier": "bitmoji",
+"name": "JohannsBitmoji",
 "publisher": "jhn.l",
-"tray_image_file": "tray.png",
+"tray_image_file": "trayBitmoji.png",
 "publisher_website": "https://russia-is.cool",
 "privacy_policy_website": "-",
 "license_agreement_website": "-",
 "stickers": [
 {
-"image_file": "blobthink.png"
+"image_file": "argh.png"
 },
 {
-"image_file": "blobthink2.png"
+"image_file": "gm.png"
 },
 {
-"image_file": "smile.png"
+"image_file": "gn.png"
 },
 {
-"image_file": "dudumm.png"
+"image_file": "happybd.png"
 },
 {
-"image_file": "ohshit.png"
+"image_file": "hi.png"
 },
 {
-"image_file": "schmüüä.png"
+"image_file": "klavier.png"
 },
 {
-"image_file": "sticker.png"
+"image_file": "legga.png"
 },
 {
-"image_file": "yay.png"
+"image_file": "love.png"
 },
 {
-"image_file": "andreas.png"
+"image_file": "nachti.png"
 },
 {
-"image_file": "frog.png"
+"image_file": "nee.png"
 },
 {
-"image_file": "ghosthug.png"
+"image_file": "nixgut.png"
 },
 {
-"image_file": "haha.png"
+"image_file": "okee.png"
 },
 {
-"image_file": "maus.png"
+"image_file": "schlaf.png"
 },
 {
-"image_file": "moonhaha.png"
+"image_file": "schlafgut.png"
 },
 {
-"image_file": "uff.png"
+"image_file": "toll.png"
 },
 {
-"image_file": "ohNO.png"
+"image_file": "zzz.png"
 },
 {
-"image_file": "tobi.png"
+"image_file": "zzzzz.png"
 },
 {
-"image_file": "schön.png"
+"image_file": "schöön.png"
 },
 {
-"image_file": "paint.png"
-},
-{
-"image_file": "whoarNN.png"
+"image_file": "cheers.png"
 }
 ]
 }
